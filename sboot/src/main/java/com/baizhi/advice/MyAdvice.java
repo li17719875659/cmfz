@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 public class MyAdvice {
 
     @Before("execution(* com.baizhi.service.*.*(..))")
-    public void before(JoinPoint joinPoint){
+    public void before(JoinPoint joinPoint) {
         System.out.println("进入前置切面");
         System.out.println("进入前置切面");
         System.out.println("进入前置切面");
