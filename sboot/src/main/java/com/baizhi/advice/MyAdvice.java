@@ -21,6 +21,6 @@ public class MyAdvice {
         System.out.println("进入前置切面1");
         System.out.println("进入前置切面1");
         System.out.println("进入前置切面1");
-        System.out.println("进入前置切面1");
+        System.out.println("进入前置切面2");
     }
 }
